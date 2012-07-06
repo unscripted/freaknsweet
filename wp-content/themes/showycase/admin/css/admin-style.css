@@ -1,0 +1,500 @@
+/*-------------------------------------------------------------------------------------------*/
+/* OptionsFramework Admin Styles */
+/*-------------------------------------------------------------------------------------------*/
+
+.themeOptions {
+width: 812px;
+}
+
+.themeOptions h2 {
+padding: 15px 0;
+}
+
+.optionsContainer {
+background-color: #eee;
+border: 1px solid #ccc;
+overflow: hidden;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0 0 10px #ddd;
+-moz-box-shadow: 0 0 10px #ddd;
+box-shadow: 0 0 10px #ddd;
+position: relative;
+}
+
+.optionsContainer .nav-tab-wrapper {
+width: 180px;
+float: left;
+}
+
+.optionsContainer .nav-tab-wrapper a.nav-tab {
+border: none;
+border-bottom: 1px solid #ddd;
+display: block;
+padding: 14px 5px 14px 50px;
+margin: 0;
+background: #eee;
+text-decoration: none;
+font-weight: bold;
+color: #aaa;
+-webkit-text-shadow: 1px 1px 0 #fff;
+-moz-text-shadow: 1px 1px 0 #fff;
+text-shadow: 1px 1px 0 #fff;
+-webkit-radius: 0;
+-moz-radius: 0;
+border-radius: 0;
+}
+
+.optionsContainer .nav-tab-wrapper a.nav-tab:first-child {
+-webkit-border-top-left-radius: 4px;
+-moz-border-top-left-radius: 4px;
+border-top-left-radius: 4px;
+}
+
+.optionsContainer .nav-tab-wrapper a.nav-tab:hover {
+color: #888;
+}
+
+.optionsContainer .nav-tab-wrapper a.nav-tab-active {
+border-bottom: 1px solid #ccc;
+background-color: #fff;
+color: #444;
+width: 126px;
+position: relative;
+z-index: 100;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-generalsettings-tab {
+background: url(../images/general.png) no-repeat 7px 12px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-stylesettings-tab {
+background: url(../images/style.png) no-repeat 7px 12px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-homesettings-tab {
+background: url(../images/home.png) no-repeat 7px 12px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-blogsettings-tab {
+background: url(../images/blog.png) no-repeat 7px 12px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-portfoliosettings-tab {
+background: url(../images/portfolio.png) no-repeat 7px 12px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-teamsettings-tab {
+background: url(../images/team.png) no-repeat 7px 12px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-contactsettings-tab {
+background: url(../images/contact.png) no-repeat 7px 12px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-generalsettings-tab.nav-tab-active {
+background: #fff url(../images/general.png) no-repeat 7px -31px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-stylesettings-tab.nav-tab-active {
+background: #fff url(../images/style.png) no-repeat 7px -31px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-homesettings-tab.nav-tab-active {
+background: #fff url(../images/home.png) no-repeat 7px -31px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-blogsettings-tab.nav-tab-active {
+background: #fff url(../images/blog.png) no-repeat 7px -31px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-portfoliosettings-tab.nav-tab-active {
+background: #fff url(../images/portfolio.png) no-repeat 7px -31px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-teamsettings-tab.nav-tab-active {
+background: #fff url(../images/team.png) no-repeat 7px -31px;
+}
+
+.optionsContainer .nav-tab-wrapper a#of-option-contactsettings-tab.nav-tab-active {
+background: #fff url(../images/contact.png) no-repeat 7px -31px;
+}
+
+.optionsContainer #optionsframework {
+border: none;
+width: 609px;
+min-height: 300px;
+padding: 0 10px;
+float: right;
+background: #fff;
+-webkit-border-top-right-radius: 4px;
+-moz-border-top-right-radius: 4px;
+border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-moz-border-bottom-right-radius: 4px;
+border-bottom-right-radius: 4px;
+border-left: 1px solid #ccc;
+position:relative;
+z-index: 0;
+}
+
+.updated {
+max-width:764px;
+margin-bottom:0px !important;
+}
+
+#optionsframework p {
+margin-bottom:0;
+padding-bottom:10px;
+}
+
+#optionsframework h3 {
+margin: 20px 10px 0 10px;
+padding-bottom: 16px;
+font-size: 18px;
+border-bottom: 4px solid #eee;
+}
+
+#optionsframework .section {
+padding:0 10px;
+}
+
+#optionsframework .section .heading {
+padding:10px 0 0 0;
+margin:0 0 10px 0;
+}
+
+#optionsframework .section .option {
+border-bottom: 1px solid #dfdfdf;
+padding-bottom: 50px;
+}
+
+
+#optionsframework .group .section:last-of-type .option {
+border-bottom: none;
+}
+
+#optionsframework .section .controls {
+float: left;
+width:380px;
+}
+
+#optionsframework .section .explain {
+width:180px;
+float: right;
+font-size: 12px;
+line-height:16px;
+color: #777;
+padding-bottom: 15px;
+}
+
+#optionsframework .section-checkbox .controls {
+width: 77px;
+}
+
+#optionsframework .section-checkbox .explain {
+width:500px;
+padding-top: 5px;
+}
+
+#optionsframework .section-color .controls {
+min-width:125px;
+width:125px
+}
+
+#optionsframework .controls input, #optionsframework .controls select, #optionsframework .controls textarea {
+margin-bottom: 10px;
+width:100%;
+}
+
+#optionsframework .section-radio label, #optionsframework .section-multicheck label {
+float:left;
+}
+
+#optionsframework input.of-radio {
+width: 30px;
+float:left;
+clear:both;
+}
+
+#optionsframework .controls .of-color {
+float:left;
+width: 80px;
+margin-left:5px;
+margin-right:5px;
+}
+
+#optionsframework .controls .of-typography-size {
+width:80px;
+margin-left:5px;
+float:left
+}
+
+#optionsframework .controls .of-typography-unit {
+width:50px;
+margin-left:5px;
+float:left
+}
+
+#optionsframework .controls .of-typography-face {
+width:100px;
+margin-left:5px;
+float:left
+}
+
+#optionsframework .controls .of-typography-style {
+width:80px;
+margin-left:5px;
+margin-right:5px;
+float:left
+}
+
+#optionsframework .of-background-properties {
+clear:both;
+margin-top: 18px;	
+}
+
+#optionsframework .controls .of-background-repeat {
+width:160px;
+display: block;
+}
+
+#optionsframework .controls .of-background-position {
+width:160px;
+display: block;
+}
+
+#optionsframework .controls .of-background-attachment {
+width:160px;
+display: block;
+}
+
+#optionsframework div.section-background .controls input.upload {
+width:47%;
+}
+
+#optionsframework .controls .of-radio-img-img {
+border:3px solid #f9f9f9;
+padding: 2px;
+margin:0 6px 10px 0;
+display:none;
+cursor:pointer;
+float:left;
+}
+
+#optionsframework .controls .of-radio-img-selected {
+border:3px solid #21759B;
+padding: 2px;
+}
+
+#optionsframework .controls .of-radio-img-img:hover {
+opacity:.8;
+}
+
+#optionsframework .controls .of-border-width {
+width:80px;
+float:left
+}
+
+#optionsframework .controls .of-border-style {
+width:120px;
+float:left
+}
+
+#optionsframework .hide {
+display:none;
+}
+
+#optionsframework .of-option-image {
+max-width:340px;
+margin:3px 0 18px 0;
+}
+
+#optionsframework .mini .controls select, #optionsframework .section .mini .controls {
+width: 140px;
+}
+
+#optionsframework .mini .controls input, #optionsframework .mini .controls {
+min-width:140px;
+width: 140px;
+}
+
+#optionsframework .mini .explain {
+max-width:74%;
+}
+
+
+
+/* Image Uploader */
+
+#optionsframework .controls input.upload {
+width:80%;
+}
+
+#optionsframework .controls input.upload_button {
+float:right;
+width:45px;
+border-color:#BBBBBB;
+cursor:pointer;
+height:16px;
+}
+
+#optionsframework .controls input.upload_button:hover {
+border-color:#666666;
+color:#000;
+}
+
+#optionsframework .screenshot {
+float:left;
+margin-left:1px;
+position:relative;
+width:344px;
+margin-top:3px;
+}
+
+#optionsframework .screenshot img {
+background:#FAFAFA;
+border-color:#ccc #eee #eee #ccc;
+border-style:solid;
+border-width:1px;
+float:left;
+max-width:334px;
+padding:4px;
+margin-bottom:10px;
+}
+
+#optionsframework .screenshot .mlu_remove {
+background:url("../images/ico-delete.png") no-repeat;
+border:medium none;
+bottom:4px;
+display:block;
+float:left;
+height:16px;
+padding:0;
+position:absolute;
+left:-4px;
+text-indent:-9999px;
+width:16px;
+}
+
+#optionsframework .screenshot .no_image .file_link {
+margin-left: 20px;
+}
+
+#optionsframework .screenshot .no_image .mlu_remove {
+bottom: 0px;
+}
+
+#optionsframework .reset-button {
+cursor:pointer;
+}
+
+
+
+/* Bottom Section */
+
+#optionsframework-submit {
+padding: 12px 10px;
+text-align: right;
+background: #fff;
+margin-left: -10px;
+width: 609px;
+border-top: 1px solid #ddd;
+-webkit-border-bottom-right-radius: 4px;
+-moz-border-bottom-right-radius: 4px;
+border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 4px;
+-moz-border-bottom-left-radius: 4px;
+border-bottom-left-radius: 4px;
+}
+
+#saveBtnContainer {
+width: 629px;
+height: 30px;
+text-align: right;
+position: absolute;
+top: 7px;
+right: 0;
+z-index: 100;
+}
+
+#saveBtn {
+width: 589px;
+padding: 8px 20px;
+text-align: right;
+position: absolute;
+top: 0;
+}
+
+#saveBtn.fixed {
+padding-top: 36px;
+background-color: #fff;
+border-bottom: 1px solid #ccc;
+position: fixed;
+top: 0;
+}
+
+
+
+/* Fileds General */
+
+.themeOptions input[type="text"], #wpcontent select, .themeOptions select, .themeOptions textarea {
+padding: 5px;
+font-size: 12px;
+line-height: 15px;
+outline: none;
+background: #f7f7f7;
+box-shadow: inset 0 0 3px #eee;
+-moz-box-shadow: inset 0 0 3px #eee;
+-webkit-box-shadow: inset 0 0 3px #eee;
+}
+
+.themeOptions input[type="text"], #wpcontent select, .theme_options select {
+height: 25px;
+}
+
+#wpcontent select.multiselect, .theme_options select.multiselect {
+height: auto;
+}
+
+.themeOptions input[type="text"]:focus, .themeOptions select:focus, .themeOptions textarea:focus {
+border-color: #aaa;
+box-shadow: 0 0 5px #ddd;
+-moz-box-shadow: 0 0 5px #ddd;
+-webkit-box-shadow: 0 0 5px #ddd;
+background: #fff;
+}
+
+
+/* SAVE/RESET MESSAGES */
+
+#setting-error-save_options,
+#setting-error-restore_defaults {
+position: fixed;
+top: 50%;
+left: 470px;
+z-index: 99999999;
+padding: 5px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: 0 0 25px #aaa;
+-moz-box-shadow: 0 0 25px #aaa;
+box-shadow: 0 0 25px #aaa;
+background: transparent;
+}
+
+#setting-error-save_options p,
+#setting-error-restore_defaults p {
+padding: 15px 35px;
+margin: 0;
+font-size: 16px;
+color: #fff;
+background: #000;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+font-weight: normal;
+}
+

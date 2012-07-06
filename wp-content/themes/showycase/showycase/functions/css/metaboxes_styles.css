@@ -1,0 +1,55 @@
+.section {
+border-top: 1px solid #d5d5d5;
+padding: 15px 0;
+}
+
+.section p {
+margin: 5px 0 0 0 !important;
+color: #777 !important;
+font-size: 11px !important;
+}
+
+.section .sep {
+height: 1px;
+padding: 0;
+margin: 0;
+border-top: 1px solid #e5e5e5;
+}
+
+#prevImgs,
+#gallImgs {
+margin-bottom: 10px;
+}
+
+.dynamicField {
+padding: 12px 0;
+border-bottom: 1px solid #e5e5e5;
+}
+
+.dynamicField input.remove {
+border-color: #c76462 !important;
+color: #c76462 !important;
+font-weight: bold;
+padding: 3px 4px !important;
+}
+
+.section.first {
+border-top: none;
+}
+
+.section label {
+display: block;
+margin-bottom: 5px;
+}
+
+.section input[type="text"], .section textarea {
+width: 350px;
+}
+
+.section input[type="text"].small {
+width: 60px;
+}
+
+.section input[type="text"].medium {
+width: 150px;
+}

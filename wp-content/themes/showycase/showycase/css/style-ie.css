@@ -1,0 +1,15 @@
+#logo,
+.main-menu > li > a,
+#branding input,
+.entry-wrap,
+#sidebar .widget,
+#page-title,
+.tags-list a,
+input[type="submit"],
+button,
+#pagination,
+footer#ending,
+.social-wrap {
+position: relative;
+behavior: url(wp-content/themes/showycase/PIE.htc);
+}
